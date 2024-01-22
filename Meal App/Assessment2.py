@@ -111,7 +111,7 @@ def show_info():
     tkinter.messagebox.showinfo(
         "Information",
         "Welcome to the Meal API! Explore random and top-rated delights with an option to search. Click the buttons to view recipes."
-    )  # Show an information dialog
+    )  
 
 RandomButton = tk.Button(
     root,
@@ -130,9 +130,9 @@ RandomButton.config(
     activebackground="#936A54",
     highlightbackground="#936A54",
     padx=0,
-)  # Configure the appearance of the random meal button
+)  # appearance of the random meal button
 
-# Create a button for displaying instructions
+#  button for displaying instructions
 InstructionButton = tk.Button(
     root,
     text="Instruction",
@@ -177,7 +177,7 @@ bistekButton = tk.Button(
     fg="white",
     font=("Italiana", 28),
 )  # Create a button for displaying information about Bistek
-bistekButton.place(x=520, y=185, relwidth=0.1, relheight=0.05)  # Place the Bistek button
+bistekButton.place(x=520, y=185, relwidth=0.1, relheight=0.05)  
 
 bistekButton.config(
     borderwidth=5,
@@ -186,7 +186,7 @@ bistekButton.config(
     highlightcolor="#839b7f",
     activebackground="#B68558",
     highlightbackground="#B68558",
-)  # Configure the appearance of the Bistek button
+)  
 
 burekButton = tk.Button(
     root,
@@ -204,7 +204,7 @@ burekButton.config(
     highlightcolor="#839b7f",
     activebackground="#B68558",
     highlightbackground="#B68558",
-)  # Configure the appearance of the Burek button
+)  
 
 PastaButton = tk.Button(
     root,
